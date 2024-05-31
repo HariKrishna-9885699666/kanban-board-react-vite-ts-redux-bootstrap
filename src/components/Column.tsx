@@ -2,14 +2,14 @@ import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import Task from "./Task";
 import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../redux/store";
-import { Task as TaskType } from "../db/dexieDB";
+import { RootState } from "@redux/store";
+import { Task as TaskType } from "@db/dexieDB";
 import {
   addTask,
   updateTask,
   selectTasksByColumnAndAssignee,
-} from "../redux/slices/kanbanSlice";
-import { db } from "../db/dexieDB";
+} from "@redux/slices/kanbanSlice";
+import { db } from "@db/dexieDB";
 
 interface ColumnProps {
   title: string;

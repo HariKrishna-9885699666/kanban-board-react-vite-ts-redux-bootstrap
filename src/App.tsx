@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Board from "./components/Board";
+import Board from "@components/Board";
 import FloatingIcon from "./FloatingIcon";
 
 const App: React.FC = () => {

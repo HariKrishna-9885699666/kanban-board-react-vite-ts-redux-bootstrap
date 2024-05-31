@@ -1,5 +1,5 @@
 import { createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { Task } from '../../db/dexieDB';
+import { Task } from '@db/dexieDB';
 
 interface KanbanState {
   tasks: Task[];

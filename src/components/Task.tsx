@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Task as TaskType } from '../db/dexieDB';
+import { Task as TaskType } from '@db/dexieDB';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { Modal, Button, Form } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
-import { updateTask, deleteTask } from '../redux/slices/kanbanSlice';
-import { db } from '../db/dexieDB';
+import { updateTask, deleteTask } from '@redux/slices/kanbanSlice';
+import { db } from '@db/dexieDB';
 import { users } from "@lib/constants";
 
 interface TaskProps {

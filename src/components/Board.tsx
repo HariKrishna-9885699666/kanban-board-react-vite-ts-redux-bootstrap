@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../redux/store';
-import { setTasks } from '../redux/slices/kanbanSlice';
-import { db } from '../db/dexieDB';
+import { RootState } from '@redux/store';
+import { setTasks } from '@redux/slices/kanbanSlice';
+import { db } from '@db/dexieDB';
 import Column from './Column';
 import { Accordion, Button } from 'react-bootstrap';
 import { users, prefixes, numbers, descriptions, taskStates, taskType } from "@lib/constants";
