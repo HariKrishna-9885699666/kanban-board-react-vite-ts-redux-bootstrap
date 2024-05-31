@@ -1,0 +1,5 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.invalid-feedback {
+    font-size: 9px;
+}
