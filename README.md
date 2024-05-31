@@ -4,7 +4,7 @@ This Kanban Board Application allows users to manage tasks in a visual manner ac
 
 ## Live Demo
 
-You can check out the live demo of the application here: [Expense Tracker Demo](https://expense-tracker-vite-react-ts-redux.netlify.app/)
+You can check out the live demo of the application here: [Kanban Board Demo](https://kanban-board-react-vite-ts-redux-bs.netlify.app/)
 
 ## Features
 
