@@ -31,11 +31,11 @@ const kanbanSlice = createSlice({
 
 export const { setTasks, addTask, updateTask, deleteTask } = kanbanSlice.actions;
 
-const selectTasks = (state: KanbanState) => state.kanban.tasks;
+const selectTasks = (state: { kanban: KanbanState }) => state.kanban.tasks;
 
 export const selectTasksByColumnAndAssignee = createSelector(
   [selectTasks, (_, column: string, assignee: string) => ({ column, assignee })],
-  (tasks, { column, assignee }) => tasks.filter((task: { column: any; assignee: any; }) => task.column === column && task.assignee === assignee)
+  (tasks, { column, assignee }) => tasks.filter(task => task.column === column && task.assignee === assignee)
 );
 
 export default kanbanSlice.reducer;
