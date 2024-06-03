@@ -38,5 +38,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```bash
    git clone https://github.com/HariKrishna-9885699666/kanban-board-react-vite-ts-redux-bootstrap.git
+   cd kanban-board-react-vite-ts-redux-bootstrap
    npm install
    npm run dev
