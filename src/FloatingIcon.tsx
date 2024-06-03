@@ -81,7 +81,6 @@ const FloatingIcon: React.FC = () => {
                   <ListGroup.Item>React Bootstrap</ListGroup.Item>
                   <ListGroup.Item>React Icons</ListGroup.Item>
                   <ListGroup.Item>Dexie</ListGroup.Item>
-                  <ListGroup.Item>React Icons</ListGroup.Item>
                   <ListGroup.Item>react-hook-form</ListGroup.Item>
                 </ListGroup>
               </Accordion.Body>
